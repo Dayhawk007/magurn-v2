@@ -5,7 +5,7 @@
     - Run in bash
 
         ```sh
-        python -m venv venv && source venv/Scripts/activate && pip install -r requirements.txt
+        python -m venv .venv && source .venv/Scripts/activate && pip install -r requirements.txt
         ```
 
 2. Run
