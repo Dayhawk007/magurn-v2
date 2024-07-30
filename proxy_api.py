@@ -6,7 +6,3 @@ def scrape_proxies():
     response = requests.get(url)
     proxies = [x.strip() for x in response.text.split("\n")]
     return proxies
-
-
-
-
